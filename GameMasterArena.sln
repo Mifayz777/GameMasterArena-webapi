@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E03551C6-BBD1-4AB5-92B8-B74085BA3768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2ABC9F6D-AAB2-42BE-B7C7-FAF22A2A2058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMasterArena.DataAccess", "src\GameMasterArena.DataAccess\GameMasterArena.DataAccess.csproj", "{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMasterArena.Domain", "src\GameMasterArena.Domain\GameMasterArena.Domain.csproj", "{DF2250CA-BB7F-42A3-8082-718C24415AD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMasterArena.Service", "src\GameMasterArena.Service\GameMasterArena.Service.csproj", "{C168FD53-4883-453D-A675-F626C1AB1C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMasterArena.WebApi", "src\GameMasterArena.WebApi\GameMasterArena.WebApi.csproj", "{686A108B-FE78-4CAB-9FDE-F0259413FDC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2250CA-BB7F-42A3-8082-718C24415AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2250CA-BB7F-42A3-8082-718C24415AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2250CA-BB7F-42A3-8082-718C24415AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2250CA-BB7F-42A3-8082-718C24415AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C168FD53-4883-453D-A675-F626C1AB1C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C168FD53-4883-453D-A675-F626C1AB1C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C168FD53-4883-453D-A675-F626C1AB1C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C168FD53-4883-453D-A675-F626C1AB1C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686A108B-FE78-4CAB-9FDE-F0259413FDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686A108B-FE78-4CAB-9FDE-F0259413FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686A108B-FE78-4CAB-9FDE-F0259413FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686A108B-FE78-4CAB-9FDE-F0259413FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B8D7C0E-12D1-4089-B75A-2775C0CEA8F9} = {E03551C6-BBD1-4AB5-92B8-B74085BA3768}
+		{DF2250CA-BB7F-42A3-8082-718C24415AD3} = {E03551C6-BBD1-4AB5-92B8-B74085BA3768}
+		{C168FD53-4883-453D-A675-F626C1AB1C02} = {E03551C6-BBD1-4AB5-92B8-B74085BA3768}
+		{686A108B-FE78-4CAB-9FDE-F0259413FDC4} = {E03551C6-BBD1-4AB5-92B8-B74085BA3768}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD0A332-CF03-403B-8B6C-A5F2F91ADAE6}
+	EndGlobalSection
+EndGlobal
